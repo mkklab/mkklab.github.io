@@ -36,6 +36,7 @@ Table of Contents:
     //   window.scrollTo({top:0, left:0, behavior:'auto'});
     // }, 1000)
   });
+
   // 커스텀
   setTimeout(() => {
     window.scrollTo({top:0, left:0, behavior:'auto'});
@@ -337,7 +338,7 @@ Table of Contents:
 		sliderNum();
 		countdown();
 		filledLabels();
-		pageScroll();
+		// pageScroll(); // 커스텀, 페이지 스크롤링 위치 기억 기능 제외
 		submitForm();
 		IEdetect();
 	});
